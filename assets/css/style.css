@@ -1,4 +1,20 @@
 body {
-    background-color: rgba(200, 189, 240, 0.4);
+    text-align: center;
     color: #22e;
+    background-image: url(https://cdn.britannica.com/72/153172-050-EB2F2D95/Titanic.jpg);
+    background-color: rgba(200, 189, 240, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+main {
+    width: 95%;
+    background-color: rgba(255,255,255,0.8);
+    margin: auto;
+}
+
+#big-box {
+    height: 80rem;
 }

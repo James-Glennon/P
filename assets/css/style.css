@@ -1,12 +1,15 @@
 body {
-    text-align: center;
     color: #22e;
     background-image: url(https://cdn.britannica.com/72/153172-050-EB2F2D95/Titanic.jpg);
-    background-color: rgba(200, 189, 240, 0.4);
+    background-color: rgba(86, 124, 158, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 main {
@@ -16,5 +19,16 @@ main {
 }
 
 #big-box {
-    height: 80rem;
+    height: 60rem;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    padding: auto;
+    margin: 0 40px;
+    background-color: yellow;
+    text-decoration: none;
 }

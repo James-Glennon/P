@@ -23,7 +23,10 @@ main {
 }
 
 nav {
+    background-color: #1288c2;
     text-align: center;
+    width: 95%;
+    margin: auto;
 }
 
 nav a {
@@ -31,4 +34,23 @@ nav a {
     margin: 0 40px;
     background-color: yellow;
     text-decoration: none;
+}
+
+footer {
+    background-color:rgba(18, 136, 194,0.8);
+    min-height: 100px;
+    width: 95%;
+    margin: auto;
+    color: #fff;
+}
+
+#ship_bw {
+    height: 20%;
+    width: 30%;
+    border: #1288c2 4px solid;
+    
+}
+
+.picture-frame {
+    text-align: center;
 }

@@ -1,4 +1,6 @@
 body {
+    padding: 0%;
+    margin: 0%;
     color: #22e;
     background-image: url(https://cdn.britannica.com/72/153172-050-EB2F2D95/Titanic.jpg);
     background-color: rgba(86, 124, 158, 0.4);
@@ -45,12 +47,20 @@ footer {
 }
 
 #ship_bw {
-    height: 20%;
-    width: 30%;
-    border: #1288c2 4px solid;
-    
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+
 }
 
 .picture-frame {
     text-align: center;
+    position: absolute;
+    width: 95%;
+    border: #1288c2 4px solid;
+    box-sizing: border-box;
+}
+
+.left-box {
+    clear: both;
 }

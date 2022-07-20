@@ -6,17 +6,18 @@ body {
     background-color: rgba(86, 124, 158, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: center;
 }
 
-h1,h2 {
+h1,
+h2 {
     text-align: center;
 }
 
 main {
     width: 95%;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
 }
 
@@ -32,7 +33,6 @@ nav {
 }
 
 nav a {
-    padding: auto;
     margin: 0 1%;
     background-color: yellow;
     text-decoration: none;
@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 footer {
-    background-color:rgba(18, 136, 194,0.8);
+    background-color: rgba(18, 136, 194, 0.8);
     min-height: 100px;
     width: 95%;
     margin: auto;
@@ -55,7 +55,7 @@ footer {
     height: 240px;
     width: 100%;
     object-fit: cover;
-    border-bottom:#1288c2 4px solid;
+    border-bottom: #1288c2 4px solid;
 }
 
 .picture-frame {

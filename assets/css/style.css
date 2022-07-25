@@ -66,6 +66,7 @@ footer {
     margin: -0.5rem auto auto;
     color: #fff;
     padding-top: 0.5rem;
+    
 }
 
 footer a {
@@ -97,4 +98,13 @@ footer a {
 .reference:hover {
     color: #fff;
     background-color: green;
+}
+
+.ref-box {
+    width: 45%;
+    float: left;
+}
+
+#signoff {
+    clear: both;
 }

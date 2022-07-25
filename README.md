@@ -7,9 +7,21 @@
 
 ## About
 
+The function of the site is to be a consise summary of the history of the RMS Titanic, from construction to its rediscovery.
+
 ## Features
 
+The site includes a background image which covers the entire web page, which can be seen through the transparent elements of the page.
+
+A navigation bar that links to the appropriate sections of the page/website.
+
+A hero image that responds to browser size by cropping the image, rather that stretching or compressing it.
+
 ## Testing
+
+HTML validated using the [W3C_HTML_Validator](https://validator.w3.org/#validate_by_input)
+
+CSS validated using the [W3C_CSS_Validator(Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Browsers
 
@@ -29,6 +41,12 @@
 
         <p id="signoff">
 
+        #signoff {
+        clear: both;
+        text-align: center;
+        visibility: hidden;
+        }
+
 ### Validator Testing
 
 ## Deployment
@@ -36,9 +54,12 @@
 ## Credits
 
 ### Media
+
 The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), and [Ultimate_Titanic](https://ultimatetitanic.com/).  
 Referenced content is cited in the footer of the website.
 
 The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)
 
 Fonts were sourced from [google fonts](https://fonts.google.com/)
+
+### Coding

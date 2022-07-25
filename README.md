@@ -15,11 +15,11 @@
 
 ### Bugs
 
-    A margin between the last paragraph element of the learn more section created a gap between the background colours of the main section and the footer, resulting in an uncovered line. After attempts to target this paragraph as a child of the h4 header with a paragraph sibling proved unsuccessful,
+    A margin between the last paragraph element of the learn more section created a gap between the background colours of the main section and the footer, resulting in an uncovered line. After attempts to target this paragraph as a 'child of the h4 header with a paragraph sibling' proved unsuccessful,
 
         h4 > p ~ p
 
-    the footer was given a margin of minus 0.5 rem to cover the gap.
+    the footer was given a top margin of minus 0.5 rem to cover the gap.
 
 ### Validator Testing
 
@@ -28,5 +28,9 @@
 ## Credits
 
 ### Media
+The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), and [Ultimate_Titanic](https://ultimatetitanic.com/).  
+Referenced content is cited in the footer of the website.
 
 The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)
+
+Fonts were sourced from [google fonts](https://fonts.google.com/)

@@ -28,10 +28,18 @@ h5 {
     margin: 0 auto 0.8%;
 }
 
+h6 {
+    font-size: 1rem;
+    margin: 0;
+}
+
 main {
     width: 95%;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
+    border: #1288c2 4px solid;
+    box-sizing: border-box;
+    border-bottom: 0;
 }
 
 p {
@@ -52,6 +60,7 @@ nav a {
     margin: 0 1%;
     background-color: yellow;
     text-decoration: none;
+    border-radius: 25%;
 }
 
 nav a:hover {
@@ -66,13 +75,16 @@ footer {
     margin: -0.5rem auto auto;
     color: #fff;
     padding-top: 0.5rem;
-    
+    border: #1288c2 4px solid;
+    box-sizing: border-box;
+    border-top: 0;
 }
 
 footer a {
     color: #bbc34d;
 }
 
+/* main page hero image */
 #ship_bw {
     height: 240px;
     width: 100%;
@@ -80,15 +92,17 @@ footer a {
     border-bottom: #1288c2 4px solid;
 }
 
+/* container div for hero image */
 .picture-frame {
     text-align: center;
     width: 100%;
-    border: #1288c2 4px solid;
+    border-bottom: #1288c2 4px solid;
     box-sizing: border-box;
     background-color: rgba(255, 165, 0, 0.8);
     margin: 0%;
 }
 
+/* styling for a elements linked to footer references */
 .reference {
     font-size: 0.6rem;
     vertical-align: super;
@@ -105,6 +119,9 @@ footer a {
     float: left;
 }
 
+/*hidden element to have footer background color reach the bottom of the page */
 #signoff {
     clear: both;
+    text-align: center;
+    visibility: hidden;
 }

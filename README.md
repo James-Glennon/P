@@ -15,11 +15,19 @@
 
 ### Bugs
 
+#### Unexpected gap in background colour
+
     A margin between the last paragraph element of the learn more section created a gap between the background colours of the main section and the footer, resulting in an uncovered line. After attempts to target this paragraph as a 'child of the h4 header with a paragraph sibling' proved unsuccessful,
 
         h4 > p ~ p
 
     the footer was given a top margin of minus 0.5 rem to cover the gap.
+
+#### Footer background colour
+
+    In order to split the footer into two horizontal divs, one for text references and the other for images, the divs were set to float. Doing this caused the background colour to no longer apply. To remedy this, a hidden paragraph was placed at the end of the footer with the property 'Clear'. The paragraph was given the id of 'signoff'
+
+        <p id="signoff">
 
 ### Validator Testing
 

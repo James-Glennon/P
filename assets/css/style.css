@@ -49,6 +49,11 @@ p {
 h4 > p ~ p{
     margin: 0;
 }
+
+section {
+    margin-bottom: 2rem;
+}
+
 nav {
     background-color: #1288c2;
     text-align: center;
@@ -72,7 +77,7 @@ footer {
     background-color: rgba(18, 136, 194, 0.8);
     min-height: 100px;
     width: 95%;
-    margin: -0.5rem auto auto;
+    margin: -2.0rem auto auto;
     color: #fff;
     padding-top: 0.5rem;
     border: #1288c2 4px solid;
@@ -82,6 +87,10 @@ footer {
 
 footer a {
     color: #bbc34d;
+}
+
+li {
+    margin: 4px;
 }
 
 /* main page hero image */

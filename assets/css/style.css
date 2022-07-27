@@ -48,6 +48,7 @@ p {
 
 section {
     margin-bottom: 2rem;
+    clear: both;
 }
 
 nav {
@@ -125,6 +126,18 @@ li {
     border-right: #1288c2 4px solid;
     float: left;
     box-sizing: border-box;
+    clear: left;
+}
+
+.right-frame {
+    width: 40%;
+    height: 480px;
+    background-color: rgba(255, 165, 0, 0.8);
+    border: #1288c2 4px solid;
+    border-right: 0;
+    float: right;
+    box-sizing: border-box;
+    clear: right;
 }
 
 /* positioning of blocks of text */
@@ -132,6 +145,13 @@ li {
 .right-text {
     width: 60%;
     float: right;
+    box-sizing: border-box;
+}
+
+.left-text {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
 }
 
 /* styling for a elements linked to footer references */

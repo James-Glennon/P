@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova&family=Nunito+Sans:wght@900&display=swap');
 
 body {
     padding: 0%;
@@ -33,6 +33,11 @@ h6 {
     font-size: 1rem;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 main {
     width: 95%;
     background-color: rgba(255, 255, 255, 0.8);
@@ -52,14 +57,18 @@ section {
 }
 
 nav {
-    background-color: #1288c2;
     text-align: center;
-    width: 95%;
-    margin: auto;
+    width: 30%;
+    margin-left: 2.5%;
+    float: left;
+    background-color: rgba(234, 244, 251, 0.8);
+    border-radius: 20%;
+    border: rgb(225, 7, 7) 2px solid;
+    box-sizing: border-box;
 }
 
 nav a {
-    margin: 0 1%;
+    margin-bottom: 20px;
     background-color: yellow;
     text-decoration: none;
     border-radius: 25%;
@@ -176,4 +185,16 @@ li {
     clear: both;
     text-align: center;
     visibility: hidden;
+}
+
+/* style for titanic name badge */
+
+.badge {
+    background-color: slategrey;
+    color: #fff;
+    border-radius: 20%;
+    border: goldenrod 1px solid;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 4px;
 }

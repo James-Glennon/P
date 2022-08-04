@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     font-family: 'Ibarra Real Nova', serif;
+    position: absolute;
 }
 
 h1,
@@ -21,7 +22,7 @@ h2 {
 
 h3,
 h4 {
-    margin: 0.5rem 0.8%;
+    margin: 1.5rem 0.8%;
 }
 
 h5 {
@@ -60,11 +61,13 @@ nav {
     text-align: center;
     width: 30%;
     margin-left: 2.5%;
-    float: left;
+    float: right;
     background-color: rgba(234, 244, 251, 0.8);
     border-radius: 20%;
     border: rgb(225, 7, 7) 2px solid;
     box-sizing: border-box;
+    position: relative;
+    top: 0%;
 }
 
 nav a {

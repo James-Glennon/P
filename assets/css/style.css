@@ -102,23 +102,37 @@ li {
     margin: 0.5rem;
 }
 
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 86%;
+}
+
 /* main page hero image */
 #ship_bw {
     height: 360px;
-    width: 100%;
-    object-fit: cover;
     border-bottom: #1288c2 4px solid;
 }
 
 /* other images */
 
 #ship-con {
-    width: 100%;
     height: 86%;
     border: #1288c2 4px solid;
     border-left: 0;
     border-right: 0;
-    object-fit: cover;
+}
+
+#voyage-map {
+    object-fit: contain;
+}
+
+#menu, #astor {
+    width: 49%;
+    height: 88%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 /* container div for hero image */
@@ -151,6 +165,23 @@ li {
     float: right;
     box-sizing: border-box;
     clear: right;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#map-box01 {
+    height: 275px;
+    box-sizing: border-box;
+}
+
+#map-box02 {
+    height: 360px;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+#voy02 {
+    margin-top: 6rem;
 }
 
 /* positioning of blocks of text */

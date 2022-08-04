@@ -125,14 +125,17 @@ img {
 
 #voyage-map {
     object-fit: contain;
+    border-bottom: #1288c2 4px solid;
 }
 
 #menu, #astor {
-    width: 49%;
+    width: 51%;
     height: 88%;
-    margin: 0%;
+    margin: 0 -1%;
     box-sizing: border-box;
     display: inline-block;
+    border: #1288c2 4px solid;
+    border-top: none ;
 }
 
 /* container div for hero image */

@@ -44,6 +44,22 @@ In order to split the footer into two horizontal divs, one for text references a
     }
 ```
 
+#### Side by side image
+
+In the voyage section are two images side by side in the same container div. The images would not fit flush with one another at 50% width, dispite all padding and margins reduced to zero and box-sizing set to border-box.
+To remedy this, the images were given negative horizontal margins and greater width as to cover the whole width of the container.
+```
+    #menu, #astor {
+    width: 51%;
+    height: 88%;
+    margin: 0 -1%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: #1288c2 4px solid;
+    border-top: none ;
+}
+```
+
 #### Redundant CSS
 
 After achieving the desired page layout/style, lines of CSS were commented out one at a time to confirm if they were necessary.
@@ -64,7 +80,7 @@ The site was then hosted on [github_pages](https://pages.github.com/)
 
 ### Media
 
-The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), and [Ultimate_Titanic](https://ultimatetitanic.com/).  
+The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate_Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).  
 Referenced content is cited in the footer of the website.
 
 The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)

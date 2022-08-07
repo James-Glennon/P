@@ -172,16 +172,20 @@ img {
     vertical-align: middle;
 }
 
-#map-box01 {
+/*styling for half height image containers*/
+
+.half-box01 {
     height: 275px;
     box-sizing: border-box;
 }
 
-#map-box02 {
+.half-box02 {
     height: 360px;
     border-top: none;
     box-sizing: border-box;
 }
+
+/* for positioning second group of images in the voyage section */
 
 #voy02 {
     margin-top: 6rem;

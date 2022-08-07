@@ -124,7 +124,7 @@ img {
 }
 
 #voyage-map {
-    object-fit: contain;
+    object-fit: fill;
     border-bottom: #1288c2 4px solid;
 }
 
@@ -136,6 +136,10 @@ img {
     display: inline-block;
     border: #1288c2 4px solid;
     border-top: none ;
+}
+
+#sos, #lifeboat {
+    border-bottom: #1288c2 4px solid;
 }
 
 /* container div for hero image */
@@ -168,8 +172,11 @@ img {
     float: right;
     box-sizing: border-box;
     clear: right;
-    text-align: center;
     vertical-align: middle;
+}
+
+.left-frame, .right-frame {
+    text-align: center;
 }
 
 /*styling for half height image containers*/
@@ -185,10 +192,11 @@ img {
     box-sizing: border-box;
 }
 
-/* for positioning second group of images in the voyage section */
+/* for positioning/styling second group of images in the voyage section */
 
 #voy02 {
-    margin-top: 6rem;
+    clear: right;
+    border-top: #1288c2 4px solid;
 }
 
 /* positioning of blocks of text */

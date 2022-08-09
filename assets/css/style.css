@@ -248,3 +248,18 @@ img {
     font-family: 'Nunito Sans', sans-serif;
     padding: 4px;
 }
+
+/* google map container */
+#google-map {
+    border: #1288c2 4px solid;
+    border-right:none;
+    float: right;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* resets float attribute to zero */
+
+.float0 {
+    float: none;
+}

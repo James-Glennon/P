@@ -141,6 +141,12 @@ img {
     border-bottom: #1288c2 4px solid;
 }
 
+#museum {
+    border-top: #1288c2 4px solid;
+    border-bottom: #1288c2 4px solid;
+    height: 93%;
+}
+
 /* container div for hero image */
 .picture-frame {
 
@@ -252,9 +258,12 @@ img {
 #google-map {
     border: #1288c2 4px solid;
     border-right:none;
+    border-left: none;
     float: right;
     margin: 0;
     box-sizing: border-box;
+    width: 60%;
+    height: 480px;
 }
 
 /* resets float attribute to zero */

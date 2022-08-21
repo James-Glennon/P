@@ -115,21 +115,9 @@ img {
 
 /* other images */
 
-#ship-con {
-    height: 86%;
-    border: #1288c2 4px solid;
-    border-left: 0;
-    border-right: 0;
-}
-
-#voyage-map {
-    object-fit: fill;
-    border-bottom: #1288c2 4px solid;
-}
-
 #menu, #astor, #ballard, #submarine {
     width: 51%;
-    height: 88%;
+    height: 86%;
     margin: 0 -1%;
     box-sizing: border-box;
     display: inline-block;
@@ -141,10 +129,26 @@ img {
     border-bottom: #1288c2 4px solid;
 }
 
+#lifeboat, #wreck {
+    height: 82%;
+}
+
 #museum {
     border-top: #1288c2 4px solid;
     border-bottom: #1288c2 4px solid;
-    height: 93%;
+    height: 88%;
+}
+
+#ship-con {
+    height: 86%;
+    border: #1288c2 4px solid;
+    border-left: 0;
+    border-right: 0;
+}
+
+#voyage-map {
+    object-fit: fill;
+    border-bottom: #1288c2 4px solid;
 }
 
 /* container div for hero image */
@@ -186,8 +190,12 @@ img {
 
 #ballad-box {
     border-top: #1288c2 4px solid;
+    font-size: 90%;
 }
 
+#menu-astor_box {
+    font-size: 85%;
+}
 /*styling for half height image containers*/
 
 .half-box01 {
@@ -204,7 +212,6 @@ img {
 /* for positioning/styling second group of images in the voyage section */
 
 #voy02 {
-    clear: right;
     border-top: #1288c2 4px solid;
 }
 
@@ -222,6 +229,13 @@ img {
     box-sizing: border-box;
 }
 
+#aftermath {
+    padding-top: 20px;
+}
+
+#aftermath > p {
+    clear: right;
+}
 /* styling for a elements linked to footer references */
 .reference {
     font-size: 0.6rem;

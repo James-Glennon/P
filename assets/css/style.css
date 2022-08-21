@@ -58,7 +58,7 @@ section {
 
 nav {
     text-align: center;
-    width: 30%;
+    width: 35%;
     margin-left: 2.5%;
     float: right;
     background-color: rgba(234, 244, 251, 0.8);
@@ -194,7 +194,8 @@ img {
 }
 
 #menu-astor_box {
-    font-size: 85%;
+    font-size: 80%;
+    font-weight: 500;
 }
 /*styling for half height image containers*/
 

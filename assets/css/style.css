@@ -313,6 +313,10 @@ img {
 
 @media screen and (max-width: 1200px) {
 
+    h1 {
+        padding-top: 40px;
+    }
+
     .left-frame,
     .right-frame {
         width: 50%;
@@ -352,8 +356,59 @@ img {
         font-size: 1.5em;
     }
 
-    footer>h6 {
+    footer h6 {
         text-align: center;
         font-size: 1.2;
+        margin: 1.5rem;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    #mueseum-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .left-frame,
+    .right-frame {
+        width: 50%;
+        height: 780px;
+    }
+
+    #google-map {
+        height: 780px;
+    }
+
+    #sos{
+        height: 80%;
+    }
+
+    .half-box01 {
+        height: 375px;
+    }
+
+    .half-box02 {
+        height: 460px;
+    }
+
+    #ship-con, #voyage-map {
+        height: 90%;
+    }
+
+    #museum {
+        height: 92%;
+    }
+
+    #menu-astor_box {
+        font-size: 100%;
+        font-weight: 400;
     }
 }

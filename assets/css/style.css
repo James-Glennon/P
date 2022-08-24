@@ -24,6 +24,10 @@ h4 {
     margin: 1.5rem 0.8%;
 }
 
+h3 {
+    padding-top: 5px;
+}
+
 h5 {
     font-size: 1.4rem;
     margin: 0 auto 0.8%;
@@ -151,6 +155,9 @@ img {
     border-bottom: #1288c2 4px solid;
 }
 
+#sos {
+    border-top: #1288c2 4px solid;
+}
 /* container div for hero image */
 .picture-frame {
 
@@ -197,6 +204,7 @@ img {
     font-size: 80%;
     font-weight: 500;
 }
+
 /*styling for half height image containers*/
 
 .half-box01 {
@@ -208,12 +216,6 @@ img {
     height: 360px;
     border-top: none;
     box-sizing: border-box;
-}
-
-/* for positioning/styling second group of images in the voyage section */
-
-#voy02 {
-    border-top: #1288c2 4px solid;
 }
 
 /* positioning of blocks of text */
@@ -230,13 +232,6 @@ img {
     box-sizing: border-box;
 }
 
-#aftermath {
-    padding-top: 20px;
-}
-
-#aftermath > p {
-    clear: right;
-}
 /* styling for a elements linked to footer references */
 .reference {
     font-size: 0.6rem;

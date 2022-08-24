@@ -34,7 +34,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 header {
@@ -119,21 +119,26 @@ img {
 
 /* other images */
 
-#menu, #astor, #ballard, #submarine {
+#menu,
+#astor,
+#ballard,
+#submarine {
     width: 51%;
     height: 86%;
     margin: 0 -1%;
     box-sizing: border-box;
     display: inline-block;
     border: #1288c2 4px solid;
-    border-top: none ;
+    border-top: none;
 }
 
-#sos, #lifeboat {
+#sos,
+#lifeboat {
     border-bottom: #1288c2 4px solid;
 }
 
-#lifeboat, #wreck {
+#lifeboat,
+#wreck {
     height: 82%;
 }
 
@@ -158,6 +163,7 @@ img {
 #sos {
     border-top: #1288c2 4px solid;
 }
+
 /* container div for hero image */
 .picture-frame {
 
@@ -169,30 +175,28 @@ img {
 /* divs for containing other images */
 
 .left-frame {
-    width: 40%;
-    height: 480px;
-    background-color: rgba(255, 165, 0, 0.8);
+
     border-bottom: #1288c2 4px solid;
     border-right: #1288c2 4px solid;
     float: left;
-    box-sizing: border-box;
     clear: left;
 }
 
 .right-frame {
-    width: 40%;
-    height: 480px;
-    background-color: rgba(255, 165, 0, 0.8);
     border: #1288c2 4px solid;
     border-right: 0;
     float: right;
-    box-sizing: border-box;
     clear: right;
     vertical-align: middle;
 }
 
-.left-frame, .right-frame {
+.left-frame,
+.right-frame {
     text-align: center;
+    width: 40%;
+    height: 480px;
+    background-color: rgba(255, 165, 0, 0.8);
+    box-sizing: border-box;
 }
 
 #ballad-box {
@@ -246,7 +250,20 @@ img {
 
 .ref-box {
     width: 45%;
+}
+
+.left-ref {
     float: left;
+}
+
+.right-ref {
+    float: right;
+}
+
+.left-list,
+.right-list {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
 }
 
 /*hidden element to have footer background color reach the bottom of the page */
@@ -271,7 +288,7 @@ img {
 /* google map container */
 #google-map {
     border: #1288c2 4px solid;
-    border-right:none;
+    border-right: none;
     border-left: none;
     float: right;
     margin: 0;
@@ -283,11 +300,60 @@ img {
 /* removes borders */
 
 .border-bot0 {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 /* resets float attribute to zero */
 
 .float0 {
     float: none;
+}
+
+/* Styling for screens smaller than 1200px */
+
+@media screen and (max-width: 1200px) {
+
+    .left-frame,
+    .right-frame {
+        width: 50%;
+        height: 580px;
+    }
+
+    .half-box01 {
+        height: 325px;
+    }
+
+    .half-box02 {
+        height: 410px;
+    }
+
+    .left-text,
+    .right-text {
+        width: 50%;
+    }
+
+    #google-map {
+        width: 50%;
+        height: 580px;
+    }
+
+    .ref-box {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer h5 {
+        float: left;
+        font-size: 1.5em;
+    }
+
+    footer>h6 {
+        text-align: center;
+        font-size: 1.2;
+    }
 }

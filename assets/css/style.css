@@ -573,3 +573,21 @@ img {
         height: 80%;
     }
 }
+
+@media screen and (max-width: 505px) {
+    nav a {
+        font-size: 92%;
+    }
+    
+    nav a:hover {
+        font-size: 100%;
+    }
+
+    #ship_bw {
+        height: 82%;
+    }
+
+    #google-map {
+        height: 240px;
+    }
+}

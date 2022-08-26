@@ -118,7 +118,6 @@ img {
 }
 
 /* other images */
-
 #menu,
 #astor,
 #ballard,
@@ -133,7 +132,8 @@ img {
 }
 
 #sos,
-#lifeboat {
+#lifeboat,
+#wreck {
     border-bottom: #1288c2 4px solid;
 }
 
@@ -173,7 +173,6 @@ img {
 }
 
 /* divs for containing other images */
-
 .left-frame {
 
     border-bottom: #1288c2 4px solid;
@@ -210,7 +209,6 @@ img {
 }
 
 /*styling for half height image containers*/
-
 .half-box01 {
     height: 275px;
     box-sizing: border-box;
@@ -223,7 +221,6 @@ img {
 }
 
 /* positioning of blocks of text */
-
 .right-text {
     width: 60%;
     float: right;
@@ -274,7 +271,6 @@ img {
 }
 
 /* style for titanic name badge */
-
 .badge {
     background-color: slategrey;
     color: #fff;
@@ -298,7 +294,6 @@ img {
 }
 
 /* removes borders */
-
 .border-bot0 {
     border-bottom: none;
 }
@@ -377,6 +372,7 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+
     .left-frame,
     .right-frame {
         width: 50%;
@@ -387,7 +383,7 @@ img {
         height: 780px;
     }
 
-    #sos{
+    #sos {
         height: 80%;
     }
 
@@ -399,7 +395,8 @@ img {
         height: 460px;
     }
 
-    #ship-con, #voyage-map {
+    #ship-con,
+    #voyage-map {
         height: 90%;
     }
 
@@ -414,18 +411,17 @@ img {
 }
 
 @media screen and (max-width: 850px) {
-    h1 {
-        padding-top: 12px;
-    }
 
-    .right-frame, .left-frame {
+    .right-frame,
+    .left-frame {
         width: 100%;
         height: 320px;
         border-left: none;
         border-right: none;
     }
 
-    .right-text, .left-text {
+    .right-text,
+    .left-text {
         width: 100%;
     }
 
@@ -451,7 +447,8 @@ img {
         height: 440px;
     }
 
-    #menu, #astor {
+    #menu,
+    #astor {
         height: 90%;
     }
 
@@ -482,7 +479,97 @@ img {
 }
 
 @media screen and (max-width: 665px) {
-    #lifeboat/*, #menu, #astor */ {
+    #lifeboat {
         height: 84%;
+    }
+}
+
+@media screen and (max-width: 605px) {
+
+    #menu,
+    #astor {
+        height: 84%;
+    }
+
+    nav {
+        width: 95%;
+        margin-right: 2.5%;
+        height: 1.8rem;
+        font-size: 1.1rem;
+        vertical-align: middle;
+    }
+
+    nav .badge {
+        padding: 0%;
+    }
+
+
+    #nav-break {
+        display: none;
+    }
+
+    h1 {
+        padding-top: 3.5%;
+    }
+
+    h3 {
+        padding-top: 1.8rem;
+    }
+
+    #wreck {
+        height: 84%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    .right-frame,
+    .left-frame {
+        height: 240px;
+    }
+
+    .picture-frame {
+        height: 280px;
+
+    }
+
+    #ship_bw {
+        object-fit: cover;
+        height: 90%;
+    }
+
+    #ship-con {
+        height: 76%;
+    }
+
+    #voyage-map {
+        height: 88%;
+    }
+
+    #sos,
+    #lifeboat {
+        height: 76%;
+    }
+
+    #menu-astor_box {
+        height: 300px;
+    }
+
+    #menu,
+    #astor,
+    #ballard,
+    #submarine {
+        height: 78%;
+    }
+
+    #wreck {
+        height: 78%;
+    }
+
+    #museum {
+        height: 80%;
     }
 }

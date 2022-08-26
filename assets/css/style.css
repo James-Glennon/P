@@ -101,6 +101,10 @@ footer a {
     color: #bbc34d;
 }
 
+ol {
+    padding: 12px;
+}
+
 li {
     margin: 0.5rem;
 }
@@ -590,4 +594,22 @@ img {
     #google-map {
         height: 240px;
     }
+
+    #sos {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+#ballard, #submarine, #wreck {
+    height: 70%;
+}
+
+nav a {
+    font-size: 85%;
+}
+
+nav a:hover {
+    font-size: 90%;
+}
 }

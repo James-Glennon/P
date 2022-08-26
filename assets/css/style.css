@@ -436,12 +436,12 @@ img {
     }
 
     #lifeboat {
-        height: 90%;
+        height: 88%;
         border-top: #1288c2 4px solid;
     }
 
     #museum {
-        height: 82%;
+        height: 84%;
         border-top: none;
     }
 
@@ -461,6 +461,28 @@ img {
     }
 
     #wreck {
-        height: 88%;
+        height: 86%;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    #ship-con-box {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    nav {
+        width: 60%;
+    }
+
+    #ship-con {
+        height: 82%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #lifeboat/*, #menu, #astor */ {
+        height: 84%;
     }
 }

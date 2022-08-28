@@ -582,7 +582,7 @@ img {
     nav a {
         font-size: 92%;
     }
-    
+
     nav a:hover {
         font-size: 100%;
     }
@@ -601,15 +601,77 @@ img {
 }
 
 @media screen and (max-width: 475px) {
-#ballard, #submarine, #wreck {
-    height: 70%;
+
+    #ballard,
+    #submarine,
+    #wreck {
+        height: 70%;
+    }
+
+    nav a {
+        font-size: 85%;
+    }
+
+    nav a:hover {
+        font-size: 90%;
+    }
 }
 
-nav a {
-    font-size: 85%;
+/* styling for screens wider than 1600 px*/
+
+@media screen and (min-width: 1600px) {
+    h1, h2,
+    main,
+    footer {
+        width: 1495px;
+        margin-left: 5.0%;
+    }
 }
 
-nav a:hover {
-    font-size: 90%;
+@media screen and (min-width: 1700px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 7.5%;
+    }
 }
+
+@media screen and (min-width: 1850px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 10.0%;
+    }
+}
+
+@media screen and (min-width: 1975px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (min-width: 2075px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 15.0%;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 17.5%;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    h1, h2,
+    main,
+    footer {
+        margin-left: 20.0%;
+    }
 }

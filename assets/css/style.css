@@ -281,7 +281,7 @@ iframe {
 
 /* style for titanic name badge */
 .badge {
-    background-color: slategrey;
+    background-color: #4b5b6b;
     color: #fff;
     border-radius: 20%;
     border: goldenrod 1px solid;

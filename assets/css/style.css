@@ -115,6 +115,11 @@ img {
     height: 86%;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
 /* main page hero image */
 #ship_bw {
     height: 360px;
@@ -357,7 +362,7 @@ img {
 
     footer h6 {
         text-align: center;
-        font-size: 1.2;
+        font-size: 1.2em;
         margin: 1.5rem;
     }
 

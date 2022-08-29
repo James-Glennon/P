@@ -207,7 +207,7 @@ iframe {
     box-sizing: border-box;
 }
 
-#ballad-box {
+#ballard-box {
     border-top: #1288c2 4px solid;
     font-size: 90%;
 }
@@ -284,7 +284,7 @@ iframe {
     background-color: #4b5b6b;
     color: #fff;
     border-radius: 20%;
-    border: goldenrod 1px solid;
+    border: goldenrod 3px solid;
     text-transform: uppercase;
     font-family: 'Nunito Sans', sans-serif;
     padding: 4px;
@@ -622,6 +622,75 @@ iframe {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #voyage-map {
+        height: 80%;
+    }
+
+    nav a {
+        font-size: 80%;
+    }
+
+    nav a:hover {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #sos-box {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        font-size: 75%;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+        font-size: 70%;
+    }
+
+    nav a:hover {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav a {
+        font-size: 65%;
+    }
+
+    nav a:hover {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav a {
+        font-size: 60%;
+        font-weight: 600;
+    }
+
+    nav a:hover {
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    nav a {
+        font-size: 55%;
+    }
+
+    nav a:hover {
+        font-size: 58%;
+    }
+}
 /* styling for screens wider than 1600 px*/
 
 @media screen and (min-width: 1600px) {

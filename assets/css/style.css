@@ -524,7 +524,10 @@ iframe {
     h3 {
         padding-top: 1.8rem;
     }
-
+    	
+    li {
+        padding-top: 30px;
+    }
     #wreck {
         height: 84%;
     }
@@ -623,8 +626,26 @@ iframe {
 }
 
 @media screen and (max-width: 450px) {
+    main, footer {
+        width: 90%;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0%;
+        border-radius: 0%;
+    }
+    
     #voyage-map {
         height: 80%;
+    }
+
+    #menu-astor_box {
+        font-size: 90%;
+    }
+
+    #museum-box {
+        font-size: 90%;
     }
 
     nav a {
@@ -662,12 +683,25 @@ iframe {
 }
 
 @media screen and (max-width: 370px) {
+   h1, 
+   h2,
+   main,
+   footer {
+    width: 85%;
+    margin-left: 7.5%;
+   }
+
     nav a {
         font-size: 65%;
     }
 
     nav a:hover {
         font-size: 70%;
+    }
+
+    #menu-astor_box,
+    #sos-box {
+        font-size: 85%;
     }
 }
 

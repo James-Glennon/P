@@ -691,10 +691,13 @@ iframe {
         font-size: 58%;
     }
 }
+
 /* styling for screens wider than 1600 px*/
 
 @media screen and (min-width: 1600px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         width: 1495px;
@@ -703,7 +706,9 @@ iframe {
 }
 
 @media screen and (min-width: 1700px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 7.5%;
@@ -711,7 +716,9 @@ iframe {
 }
 
 @media screen and (min-width: 1850px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 10.0%;
@@ -719,7 +726,9 @@ iframe {
 }
 
 @media screen and (min-width: 1975px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 12.5%;
@@ -727,7 +736,9 @@ iframe {
 }
 
 @media screen and (min-width: 2075px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 15.0%;
@@ -735,7 +746,9 @@ iframe {
 }
 
 @media screen and (min-width: 2200px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 17.5%;
@@ -743,7 +756,9 @@ iframe {
 }
 
 @media screen and (min-width: 2300px) {
-    h1, h2,
+
+    h1,
+    h2,
     main,
     footer {
         margin-left: 20.0%;

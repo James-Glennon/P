@@ -80,7 +80,7 @@ Links in the navigation bar appear to have a green font colour despite no CSS co
 
 ![Reference links having an unusual underline effect](assets/images/readme_images/firefox_ref.png)
 
-Reference superscript appears with an unexpected underline effect.
+Reference superscript appears with an unexpected underline effect much lower than expected.
 
 #### Opera
 
@@ -198,6 +198,7 @@ The site was then hosted on [github pages](https://pages.github.com/)
 The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).
 
 An additional image was sourced from [All that's interesting](https://allthatsinteresting.com/)
+
 Referenced content is cited in the footer of the website.
 
 The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)
@@ -206,4 +207,16 @@ Fonts were sourced from [google fonts](https://fonts.google.com/)
 
 ### Coding
 
-The deployment section of this read me document was structured based on the example provided in the code institute module for portfolio project one.
+This read me document was structured based on the example provided in the code institute module for portfolio project one.
+
+[Markdown Guide](https://www.markdownguide.org/) was used for markdown synthax for this readme file.
+
+[The World Wide Web Consortium (W3C)](https://www.w3.org/) was used several times for html and css synthax.
+
+[FreeConvert](https://www.freeconvert.com/image-converter) was used to convert images from .jpg to .webp format.
+
+![embed link for google maps](assets/images/readme_images/gmap-embed.png)
+
+The code for the iframe containing the map was provided by the [Google Maps](https://www.google.ie/maps/) website.
+
+Google dev tools within the chrome browser where used during development to identify errors/issues.

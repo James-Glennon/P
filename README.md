@@ -118,10 +118,56 @@ To remedy this, the images were given negative horizontal margins and greater wi
     border-top: none ;
 }
 ```
+#### Footer Divs
 
-#### Redundant CSS
+The side by side footer divs acted unexpectedly, at less than 1200px width, after adding media queries for responsive design.
 
-After achieving the desired page layout/style, lines of CSS were commented out one at a time to confirm if they were necessary.
+both divs would float to the right of the footer.
+
+To remedy this, the width of the divs were increased and positioned vertically.
+
+#### Resposive design beyond 1600px width
+
+It was my desire to have the main element be a fixed 1495px width for screens larger than 1600px wide, and centered in the page.
+
+```
+    @media screen and (min-width: 1600px) {
+
+    h1,
+    h2,
+    main,
+    footer {
+        width: 1495px;
+        margin-left: auto;
+    }
+```
+
+The above code proved ineffective, and so instead, the margin was incrementally for breakpoint screen widths, rather than responding dynamically.
+
+### Known unresolved bugs
+
+#### Text escaping footer
+
+![Reference text extending beyond footer border](assets/images/readme_images/footer-error.png)
+
+At narrow screen sizes (~450px wide or less), text for image reference #11 extends beyond the sides of the footer.
+
+I am uncertain how to address this, as image reference #13 remains in the footer, dispite having more text.
+
+#### Incorrect aspect ratio of Map image
+
+![Map image resulting in poor lighthouse score](assets/images/readme_images/map-error.png)
+
+One of the factors contributing to the low "Best practices score" on google's lighthouse tool is an improperly proportioned map.
+
+to fit an image into a container div, I used the object-fit attribute. 
+
+I found the cover value hid important parts of the image, while contain revealed the background colour in an unattractive way.
+
+I instead used the fill value, which results in the image stretching and squashing with no background exposed.
+
+I would have liked to created a container div that would shrink/grow with page width while keeping aspect ratio, but I do not know how.
+
 
 ### Validator Testing
 

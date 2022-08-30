@@ -48,6 +48,12 @@ A functional google maps page displaying the location of the Titanic Belfast mus
 
 ## Testing
 
+### Links
+
+All internal links were tested and confirmed to focus on the correct parts of the page.
+
+All external links were tested and confirmed to open in a new tab.
+
 ### Browsers
 
 The live web address included in this read me file was tested on google chrome, microsoft edge, mozilla firefox and opera.
@@ -171,7 +177,11 @@ I would have liked to created a container div that would shrink/grow with page w
 
 ### Validator Testing
 
+![W3C HTML validator result](assets/images/readme_images/html-val.png)
+
 HTML validated using the [W3C_HTML_Validator](https://validator.w3.org/#validate_by_input)
+
+![W3C CSS validator result](assets/images/readme_images/css-val.png)
 
 CSS validated using the [W3C_CSS_Validator(Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
@@ -179,13 +189,15 @@ CSS validated using the [W3C_CSS_Validator(Jigsaw)](https://jigsaw.w3.org/css-va
 
 Code was written in [gitpod](https://www.gitpod.io/) and was incrementally saved and pushed to [github](https://github.com/) for version control.
 
-The site was then hosted on [github_pages](https://pages.github.com/)
+The site was then hosted on [github pages](https://pages.github.com/)
 
 ## Credits
 
 ### Media
 
-The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate_Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).  
+The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).
+
+An additional image was sourced from [All that's interesting](https://allthatsinteresting.com/)
 Referenced content is cited in the footer of the website.
 
 The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)

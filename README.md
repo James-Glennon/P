@@ -13,11 +13,36 @@ The function of the site is to be a consise summary of the history of the RMS Ti
 
 ## Features
 
+![Titanic seen through background](assets/images/readme_images/background.png)
+
 The site includes a background image which covers the entire web page, which can be seen through the transparent elements of the page.
 
+![Navigation bar by default](assets/images/readme_images/nav-default.png)
+![Navigation bar reacting to hover](assets/images/readme_images/nav-hover.png)
+
 A navigation bar that links to the appropriate sections of the page/website.
+The links respond to hover by changing colour and growing while hovered.
+
+![Reference link superscript default appearence](assets/images/readme_images/ref-default.png)
+![Reference link supercript hover response](assets/images/readme_images/ref-hover.png)
+
+Superscript links that connect to media references relevent to that section of content.
+These links respond to hover by swapping text and background colour.
+
+![External references for media and images](assets/images/readme_images/footer-ref.png)
+
+A list of references for text and image content used to create this page, including links to the external sites.
+The links include aria labels and open in a new tab.
+
+![Main page image at 1200px page width](assets/images/readme_images/hero-image1200px.png)
+![Main page image at 600px page width](assets/images/readme_images/hero-image600px.png)
 
 A hero image that responds to browser size by cropping the image, rather that stretching or compressing it.
+
+![Google maps in an iframe embedded in the page](assets/images/readme_images/google-map.png)
+
+
+A functional google maps page displaying the location of the Titanic Belfast museum.
 
 ## Testing
 

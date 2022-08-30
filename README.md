@@ -109,6 +109,8 @@ In order to split the footer into two horizontal divs, one for text references a
     }
 ```
 
+Later in developement, I decided not to hide this element.
+
 #### Side by side image
 
 In the voyage section are two images side by side in the same container div. The images would not fit flush with one another at 50% width, dispite all padding and margins reduced to zero and box-sizing set to border-box.

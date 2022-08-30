@@ -2,7 +2,7 @@
 # Portfolio project 1
 
 ## Code institute: HTML and CSS
-
+![Responsive design for the live site](assets/images/readme_images/responsive_design.png)
 [Live website address](https://james-glennon.github.io/portfolio-project-one/)
 
 *author: James Glennon*
@@ -16,6 +16,8 @@ The function of the site is to be a consise summary of the history of the RMS Ti
 ![Titanic seen through background](assets/images/readme_images/background.png)
 
 The site includes a background image which covers the entire web page, which can be seen through the transparent elements of the page.
+
+The page also has a fallback background colour similar to the image, to ensure the same colour contrast should the image fail to load.
 
 ![Navigation bar by default](assets/images/readme_images/nav-default.png)
 ![Navigation bar reacting to hover](assets/images/readme_images/nav-hover.png)
@@ -47,6 +49,36 @@ A functional google maps page displaying the location of the Titanic Belfast mus
 ## Testing
 
 ### Browsers
+
+The live web address included in this read me file was tested on google chrome, microsoft edge, mozilla firefox and opera.
+
+#### Google Chrome
+
+The website was coded using chrome and chrome dev tools, including lighthouse. 
+
+![Chrome lighthouse results for the website](assets/images/readme_images/chrome-lighthouse.png)
+
+No known issues exclusive to Chrome (see bugs)
+
+#### Microsoft Edge
+
+![Edge scrolling past the "edges" of the page](assets/images/readme_images/edge-scroll.png)
+
+The vertical scrolling of the page allows user to scroll "beyond" the page, revealing the fallback background colour.
+
+#### Mozilla Firefox
+
+![Navigation links appearing green in firefox](assets/images/readme_images/firefox_nav.png)
+
+Links in the navigation bar appear to have a green font colour despite no CSS colour rule.
+
+![Reference links having an unusual underline effect](assets/images/readme_images/firefox_ref.png)
+
+Reference superscript appears with an unexpected underline effect.
+
+#### Opera
+
+No known issues exclusive to Opera.
 
 ### Bugs
 

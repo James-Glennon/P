@@ -148,7 +148,7 @@ It was my desire to have the main element be a fixed 1495px width for screens la
     }
 ```
 
-The above code proved ineffective, and so instead, the margin was incrementally for breakpoint screen widths, rather than responding dynamically.
+The above code proved ineffective, and so instead, the margin adjusted for breakpoint screen widths, rather than responding dynamically.
 
 ### Known unresolved bugs
 

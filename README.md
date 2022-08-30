@@ -195,13 +195,13 @@ The site was then hosted on [github pages](https://pages.github.com/)
 
 ### Media
 
-The information was sourced from [Brittanica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).
+The information was sourced from [Britannica](https://www.britannica.com/), [History](https://www.history.co.uk/), [Ultimate Titanic](https://ultimatetitanic.com/), and [Wikipedia](https://en.wikipedia.org/wiki/John_Jacob_Astor_IV).
 
 An additional image was sourced from [All that's interesting](https://allthatsinteresting.com/)
 
 Referenced content is cited in the footer of the website.
 
-The website background image was sourced from [Brittanica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)
+The website background image was sourced from [Britannica](https://www.britannica.com/topic/Titanic#/media/1/597128/163712)
 
 Fonts were sourced from [google fonts](https://fonts.google.com/)
 
